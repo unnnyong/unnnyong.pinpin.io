@@ -54,7 +54,7 @@ h1, h2, p { margin-top: 0; }
 h1 { margin-bottom: 30px; font-size: clamp(54px, 8vw, 112px); line-height: .94; letter-spacing: -.075em; }
 h1 em { color: var(--ink); font-family: inherit; font-style: normal; font-weight: 800; }
 .lede { max-width: 580px; color: var(--muted); font-size: clamp(18px, 2vw, 23px); line-height: 1.65; letter-spacing: -.025em; }
-.app-store-badge { margin-top: 26px; }
+.app-store-badge { display: inline-block; margin-top: 26px; }
 .app-store-badge img { display: block; width: auto; height: 48px; }
 
 .visual { position: relative; aspect-ratio: 1; }
